@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0d3b2e">
+<meta name="description" content="موقع تعريفي لجمع دروس وخطب ومحاضرات وفتاوى الشيخ يحيى الحجوري من المصادر المنشورة على يوتيوب.">
+<title>موقع الشيخ يحيى الحجوري</title>
+<style>
+:root{--green:#0d3b2e;--green2:#145744;--gold:#d8b56d;--cream:#f7f5ef;--ink:#18231e;--muted:#65716b;--white:#fff;--line:#e5e3dc}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Tahoma,Arial,sans-serif;line-height:1.8}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+.topbar{background:#092b22;color:#e8eee9;font-size:13px;padding:8px 0}.topbar .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+header{background:var(--green);color:white;border-bottom:3px solid var(--gold)}
+.head{display:flex;align-items:center;gap:15px;padding:23px 0}.seal{width:64px;height:64px;border:2px solid var(--gold);border-radius:50%;display:grid;place-items:center;font-size:29px;color:var(--gold);flex-shrink:0}
+.brand h1{font-size:clamp(20px,3vw,29px);margin:0;font-weight:800}.brand p{margin:3px 0 0;color:#d7e4dc;font-size:14px}
+nav{background:#104a39;color:#fff}.nav{display:flex;gap:4px;overflow-x:auto;padding:8px 0;white-space:nowrap}.nav a{padding:8px 12px;border-radius:7px;font-size:14px}.nav a:hover{background:#21644f}
+.hero{background:linear-gradient(120deg,rgba(7,42,32,.96),rgba(18,82,61,.92)),radial-gradient(circle at 20% 20%,#47765d,transparent 35%);color:white;padding:48px 0 42px}
+.hero-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:25px;align-items:center}.eyebrow{color:var(--gold);font-weight:bold;font-size:14px}.hero h2{font-size:clamp(27px,5vw,43px);line-height:1.45;margin:9px 0 14px}.hero p{color:#e2ece6;max-width:650px;margin:0 0 22px}.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--gold);color:#1a2b22;padding:11px 18px;border-radius:8px;font-weight:bold;border:0;cursor:pointer;font:inherit;font-weight:bold}.btn.secondary{background:transparent;border:1px solid #b9d0c3;color:#fff;margin-right:8px}.hero-note{border:1px solid rgba(216,181,109,.55);border-radius:16px;padding:24px;background:rgba(255,255,255,.05)}.hero-note strong{display:block;color:var(--gold);font-size:19px;margin-bottom:8px}.hero-note p{font-size:14px;margin:0}
+section{padding:36px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:10px;margin-bottom:20px}.section-head h2{margin:0;font-size:25px;color:var(--green)}.section-head p{margin:4px 0 0;color:var(--muted);font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:#fff;border:1px solid var(--line);border-radius:13px;padding:19px;box-shadow:0 4px 15px rgba(20,35,27,.035)}.card .icon{font-size:25px}.card h3{margin:8px 0 5px;font-size:18px}.card p{color:var(--muted);font-size:14px;margin:0 0 13px}.text-link{color:var(--green2);font-weight:bold;font-size:14px}
+.searchbox{display:flex;gap:9px;margin:0 0 20px}.searchbox input{min-width:0;flex:1;border:1px solid #d7d8d1;border-radius:9px;padding:12px 14px;font:inherit;background:white}.video-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.video{background:white;border:1px solid var(--line);border-radius:13px;overflow:hidden}.video iframe{width:100%;aspect-ratio:16/9;border:0;display:block;background:#e5e5e5}.video-info{padding:15px}.video-info h3{font-size:17px;margin:0 0 8px}.video-info p{font-size:13px;color:var(--muted);margin:0 0 12px}.video-actions{display:flex;gap:8px;flex-wrap:wrap}.small-btn{font-size:13px;padding:7px 10px;border-radius:7px;background:#edf3ef;color:var(--green);font-weight:bold}
+.notice{border-right:4px solid var(--gold);background:#fff9eb;padding:14px 16px;border-radius:8px;color:#564a30;font-size:14px;margin-top:18px}
+.about{background:#edf1eb}.about-box{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:center}.about-box h2{color:var(--green);font-size:26px;margin:0 0 8px}.about-box p{color:#4e5b54}.about-card{background:white;padding:22px;border-radius:14px;border:1px solid var(--line)}.about-card ul{margin:0;padding-right:20px}
+footer{background:#082a21;color:#dce7e0;padding:27px 0;margin-top:0}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.foot p{margin:4px 0;font-size:13px;color:#b7c9bf}
+.admin{background:#fff;border:1px dashed #a6b5aa;border-radius:12px;padding:18px;margin-top:20px}.admin h3{margin:0 0 8px;color:var(--green)}.admin p{font-size:14px;color:var(--muted)}.admin details summary{cursor:pointer;font-weight:bold;color:var(--green)}.admin code{direction:ltr;display:block;overflow-wrap:anywhere;background:#f1f3ef;padding:9px;border-radius:7px;margin:8px 0}
+@media(max-width:760px){.hero-grid,.about-box{grid-template-columns:1fr}.hero{padding:35px 0}.hero-note{display:none}.grid{grid-template-columns:1fr 1fr}.video-grid{grid-template-columns:1fr}.head{padding:16px 0}.seal{width:52px;height:52px}.section-head{align-items:start;flex-direction:column}}
+@media(max-width:430px){.grid{grid-template-columns:1fr}.btn.secondary{margin:8px 0 0}.hero h2{font-size:27px}}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="wrap"><span>مكتبة الشيخ يحيى الحجوري الإلكترونية</span><span>الدروس • الخطب • المحاضرات • الفتاوى</span></div></div>
+<header><div class="wrap head">
+  <div class="seal" aria-hidden="true">✦</div>
+  <div class="brand"><h1>موقع الشيخ يحيى الحجوري</h1><p>مكتبة للدروس والخطب والمحاضرات المنشورة</p></div>
+</div></header>
+<nav><div class="wrap nav">
+<a href="#home">الرئيسية</a><a href="#sections">الأقسام العلمية</a><a href="#lectures">المحاضرات من يوتيوب</a><a href="#about">التعريف بالموقع</a><a href="#contact">التواصل</a>
+</div></nav>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+  <div><span class="eyebrow">مرحبًا بكم</span><h2>العلم النافع في مكان واحد</h2><p>صفحة مرتبة لتسهيل الوصول إلى دروس وخطب ومحاضرات وفتاوى الشيخ يحيى الحجوري، مع تشغيل المواد المرئية من يوتيوب مباشرة.</p><a class="btn" href="#lectures">تصفح المحاضرات</a><a class="btn secondary" href="https://youtube.com/@sh.alhajury" target="_blank" rel="noopener">فتح قناة الشيخ على يوتيوب ↗</a></div>
+  <div class="hero-note"><strong>مكتبة علمية منظمة</strong><p>يمكن تحديث عناوين المحاضرات وروابطها من ملف الموقع، وإضافة مواد جديدة كلما توفرت روابطها الصحيحة.</p></div>
+</div></section>
+<section id="sections"><div class="wrap">
+  <div class="section-head"><div><h2>الأقسام العلمية</h2><p>اختر القسم للوصول إلى مواده.</p></div></div>
+  <div class="grid">
+    <article class="card"><div class="icon">🎙️</div><h3>الخطب والمحاضرات</h3><p>محاضرات عامة وخطب ودروس صوتية ومرئية.</p><a class="text-link" href="#lectures">عرض المحاضرات ←</a></article>
+    <article class="card"><div class="icon">📚</div><h3>الدروس العلمية</h3><p>مواد علمية مرتبة حسب العنوان والسلسلة.</p><a class="text-link" href="#lectures">عرض الدروس ←</a></article>
+    <article class="card"><div class="icon">❔</div><h3>الفتاوى</h3><p>روابط الفتاوى المنشورة في المصادر المتاحة.</p><a class="text-link" href="#lectures">تصفح المواد ←</a></article>
+    <article class="card"><div class="icon">🕌</div><h3>التلاوات</h3><p>قسم مخصص للتلاوات إذا توفرت روابطها.</p><a class="text-link" href="#lectures">عرض المواد ←</a></article>
+    <article class="card"><div class="icon">📝</div><h3>المقالات والفوائد</h3><p>فوائد مكتوبة وروابط مواد علمية نافعة.</p><a class="text-link" href="#about">عن المكتبة ←</a></article>
+    <article class="card"><div class="icon">🔎</div><h3>البحث في المكتبة</h3><p>ابحث في عناوين المحاضرات المضافة أدناه.</p><a class="text-link" href="#lectures">ابدأ البحث ←</a></article>
+  </div>
+</div></section>
+<section id="lectures"><div class="wrap">
+  <div class="section-head"><div><h2>محاضرات الشيخ يحيى الحجوري</h2><p>شاهد الفيديوهات من داخل الموقع عبر مشغل يوتيوب المضمّن.</p></div></div>
+  <div class="video-grid" style="grid-template-columns:1fr">
+    <article class="video">
+      <iframe src="https://www.youtube-nocookie.com/embed?listType=user_uploads&list=sh.alhajury" title="فيديوهات قناة الشيخ يحيى الحجوري" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div class="video-info">
+        <h3>فيديوهات قناة الشيخ يحيى الحجوري</h3>
+        <p>المشغل يحاول عرض الفيديوهات المرفوعة على القناة داخل الموقع. قد لا يدعم يوتيوب هذا النوع من التضمين لبعض معرّفات القنوات.</p>
+        <div class="video-actions"><a class="small-btn" href="https://youtube.com/@sh.alhajury" target="_blank" rel="noopener">فتح القناة على يوتيوب ↗</a></div>
+      </div>
+    </article>
+  </div>
+  <div class="notice">إذا لم تظهر قائمة الفيديوهات في المشغل، فذلك لأن يوتيوب لا يتيح تضمين كل القنوات باستخدام اسم المستخدم وحده. عندها نحتاج معرّف القناة أو معرّف قائمة الرفع، أو تفعيل YouTube Data API، حتى نعرض الفيديوهات في بطاقات قابلة للبحث داخل الموقع.</div>
+  <div class="admin"><h3>التحديث التلقائي الكامل</h3><p>هذه النسخة تربط القناة بمشغل مضمّن وتحافظ على رابط القناة. أما جلب كل العناوين والصور والبحث والتصنيفات تلقائيًا، فيحتاج معرّف القناة أو قائمة الرفع؛ ويمكن استخدام YouTube Data API لذلك.</p>
+  <details><summary>رابط القناة المستخدمة</summary><code>https://youtube.com/@sh.alhajury</code></details></div>
+</div></section>
+<section class="about" id="about"><div class="wrap about-box">
+  <div><h2>عن الموقع</h2><p>مشروع مكتبة إلكترونية مستقلة هدفها تسهيل الوصول إلى المواد العلمية المنشورة للشيخ يحيى الحجوري، عبر ترتيب الروابط في أقسام واضحة وتصميم مناسب للجوال والحاسوب.</p><p>هذا الموقع غير تابع رسميًا للشيخ ما لم يعتمد أو يوافق القائمون عليه ذلك. يُرجى التأكد من صحة المحتوى والروابط قبل نشرها.</p></div>
+  <div class="about-card"><h3>ما الذي يقدمه الموقع؟</h3><ul><li>واجهة عربية متوافقة مع الجوال.</li><li>مشغل يوتيوب مدمج لكل فيديو.</li><li>بحث فوري في عناوين المواد.</li><li>إضافة المحاضرات بتعديل ملف واحد.</li><li>استضافة مجانية عبر GitHub Pages.</li></ul></div>
+</div></section>
+<section id="contact"><div class="wrap"><div class="section-head"><div><h2>التواصل والملاحظات</h2><p>أضف هنا وسيلة التواصل الرسمية بعد التأكد منها.</p></div></div><div class="card"><p>لإرسال تصحيح أو اقتراح، تواصل مع إدارة الموقع عبر قناة الشيخ الرسمية أو الوسيلة التي يعتمدها المشرفون.</p><a class="text-link" href="https://youtube.com/@sh.alhajury" target="_blank" rel="noopener">قناة الشيخ على يوتيوب ←</a></div></div></section>
+</main>
+<footer><div class="wrap foot"><div><strong>موقع الشيخ يحيى الحجوري</strong><p>مكتبة إلكترونية للمواد المنشورة.</p></div><p>© <span id="year"></span> — موقع مستقل، مع احترام حقوق أصحاب المحتوى.</p></div></footer>
+<script>
+/* يمكن إضافة روابط فيديو يدويًا هنا. رابط قناة الشيخ: https://youtube.com/@sh.alhajury */
+const VIDEOS = [
+  // مثال للتنسيق:
+  // { title: "عنوان المحاضرة", category: "محاضرة", url: "https://www.youtube.com/watch?v=VIDEO_ID" },
+];
+function getVideoId(url){
+  try{
+    const u=new URL(url);
+    if(u.hostname.includes("youtu.be")) return u.pathname.slice(1).split("/")[0];
+    if(u.searchParams.get("v")) return u.searchParams.get("v");
+    const parts=u.pathname.split("/");
+    const i=parts.findIndex(x=>["embed","shorts","live"].includes(x));
+    return i>=0?parts[i+1]:"";
+  }catch(e){return ""}
+}
+const videosEl=document.getElementById("videos");
+function renderVideos(filter=""){
+ const items=VIDEOS.filter(v=>(v.title+" "+(v.category||"")).toLowerCase().includes(filter.toLowerCase()));
+ if(!items.length){
+   videosEl.innerHTML='<div class="card" style="grid-column:1/-1;text-align:center;padding:30px"><div style="font-size:32px">🎧</div><h3>ستظهر المحاضرات هنا</h3><p>أضف عنوانًا ورابط يوتيوب صحيحًا في قائمة VIDEOS داخل ملف index.html، ثم احفظ الملف.</p><a class="text-link" href="https://www.youtube.com/" target="_blank" rel="noopener">فتح يوتيوب للبحث عن المحاضرات ←</a></div>';
+   return;
+ }
+ videosEl.innerHTML=items.map(v=>{
+  const id=getVideoId(v.url);
+  if(!id)return "";
+  const safeTitle=v.title.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  return `<article class="video"><iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}" title="${safeTitle}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><div class="video-info"><h3>${safeTitle}</h3><p>${(v.category||"مادة علمية").replace(/[&<>"]/g,"")}</p><div class="video-actions"><a class="small-btn" href="${v.url}" target="_blank" rel="noopener">مشاهدة على يوتيوب ↗</a></div></div></article>`;
+ }).join("");
+}
+document.getElementById("search").addEventListener("input",e=>renderVideos(e.target.value));
+document.getElementById("clearSearch").addEventListener("click",()=>{document.getElementById("search").value="";renderVideos()});
+document.getElementById("year").textContent=new Date().getFullYear();
+renderVideos();
+</script>
+</body>
+</html>
